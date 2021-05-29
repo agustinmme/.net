@@ -51,8 +51,8 @@ namespace Ejercicio1
             coonection.ConnectionString = "data source=DESKTOP-QL7GP7B; initial catalog=EMPLEADOS_DB; integrated security=sspi";
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = "  SELECT * FROM Empleados WHERE lower(NombreCompleto) LIKE @Id";
-            cmd.Parameters.AddWithValue("@Id","%" +name + "%");//Lo tenia por Id porque es el unico valor que nose repite,
-                                                   //tambien dni pero no es unico en esta base es un string si lo cargan mal se repite
+            cmd.Parameters.AddWithValue("@Id","%" +name + "%");
+                                                  
             
             cmd.Connection = coonection;
 
