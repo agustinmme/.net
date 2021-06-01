@@ -1,3 +1,3 @@
 # .net-crud-winforms
 POO, WinForm, ADO Net, SQL Server, DataGridView.
-falta pasarlo a capas....
+#faltar cambiar a capas
